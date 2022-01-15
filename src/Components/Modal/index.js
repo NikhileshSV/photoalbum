@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import PropTypes from 'prop-types';
 import axios from "axios";
 import styles from "./styles.module.css";
 
@@ -70,5 +71,10 @@ const Modal = ({ imageContent, setTogglePopup }) => {
         </div>
     );
 };
+
+Modal.propTypes = {
+    imageContent: PropTypes.string.isRequired,
+    setTogglePopup: PropTypes.func.isRequired
+}
 
 export default Modal;

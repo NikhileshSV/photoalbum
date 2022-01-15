@@ -81,7 +81,7 @@ const Photos = ({ loadingContent }) => {
 };
 
 Photos.propTypes = {
-    loadingContent: PropTypes.bool
+    loadingContent: PropTypes.bool.isRequired
 }
 
 export default Photos;
