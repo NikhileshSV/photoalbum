@@ -1,0 +1,37 @@
+.searchBar {
+    flex-wrap: nowrap;
+}
+.searchBar .searchContent {
+    width: 450px;
+    border-color: #ffffff;
+    box-shadow: none;
+}
+.btnClose {
+    position: absolute;
+    right: 25px;
+    align-items: center;
+    font-size: 12px;
+    width: 20px;
+    height: 27px;
+    z-index: 4;
+    cursor: pointer;
+}
+.searchIcon {
+    background: #ffffff;
+    width: 30px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .searchIcon {
+        width: 60px;
+    }
+    .searchBar .searchContent {
+        width: 100%;
+    }
+    .dropdown {
+        width: calc(100% - 40px);
+    }
+}

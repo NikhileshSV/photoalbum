@@ -1,0 +1,13 @@
+.headingContainer {
+    height: 150px;
+    width: 100%;
+    background: #000000;
+}
+.heading {
+    color: #ffffff;
+}
+.cameraIcon {
+    height: 36px;
+    filter: invert(1);
+    margin-right: 12px;
+}

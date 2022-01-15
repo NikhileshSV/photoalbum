@@ -1,0 +1,10 @@
+body {
+    overflow: hidden;
+}
+#root {
+    position: relative;
+    height: 100vh;
+}
+.form-control {
+    border: 0px;
+}

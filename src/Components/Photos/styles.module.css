@@ -1,0 +1,35 @@
+.figureTag {
+    position: relative;
+}
+.photoImages {
+    object-fit: cover;
+    min-height: 200px;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    cursor: pointer;
+}
+.figureCaption {
+    position: absolute;
+    top: 22px;
+    margin-left: 14px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 12px;
+    color: #ffffff;
+    background: rgb(0, 0, 0, 0.4);
+}
+.photoSection {
+    height: calc(100vh - 150px);
+    padding: 10px;
+    overflow-y: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    min-height: 300px;
+    overflow-x: hidden;
+}
+.eye {
+    margin-right: 6px;
+}

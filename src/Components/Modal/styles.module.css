@@ -1,0 +1,53 @@
+.figureCaption {
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    margin-left: 14px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 12px;
+    color: #ffffff;
+    background: rgb(0, 0, 0, 0.4);
+}
+.modal {
+    display: block;
+    background: rgb(0, 0, 0, 0.7);
+}
+.modalDialog {
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: calc(100% - 60px);
+    transform: translate(-50%, -50%);
+    pointer-events: unset;
+}
+.modalClose {
+    color: #ffffff;
+    margin: 50px;
+    cursor: pointer;
+}
+.closeIcon {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    filter: invert(1);
+}
+.modalImage {
+    max-width: 100%;
+    min-width: 296px;
+    min-height: 200px;
+    max-height: calc(100vh - 90px);
+}
+
+@media only screen and (max-width: 768px) {
+    .modalDialog,
+    .modalImage {
+        max-width: 296px;
+        max-height: 480px;
+    }
+    .modalClose {
+        margin: 26px;
+    }
+}

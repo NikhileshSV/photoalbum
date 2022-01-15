@@ -1,0 +1,25 @@
+.dropdownMenu {
+    width: 480px;
+}
+.dropdownToggle::after {
+    display: none;
+}
+.dropdownItem {
+    white-space: break-spaces;
+    cursor: pointer;
+}
+.keywords {
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.clearBtn {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdownMenu {
+        width: 100%;
+    }
+}
